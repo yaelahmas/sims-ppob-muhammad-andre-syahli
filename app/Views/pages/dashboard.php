@@ -92,7 +92,7 @@
 <div class="row text-center mb-5">
   <?php foreach ($services['data'] as $row) { ?>
     <div class="col-3 col-md-1 service-item">
-      <a href="<?= base_url('transaction/') .  strtolower($row['service_code']); ?>">
+      <a href="<?= base_url('payment/') .  strtolower($row['service_code']); ?>">
         <div class="service-icon">
           <img src="<?= $row['service_icon']; ?>" alt="<?= $row['service_name']; ?>" width="100%">
         </div>
